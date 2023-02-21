@@ -2,6 +2,8 @@
 
 This project aims to offer an inexpensive and open-source method for using M0110/A keyboards with the Apple Lisa 2; as the M0110/A line of keyboards is functionally and aesthetically similar to the Lisa's keyboard, this seemed a good fit. Additionally, as Lisa keyboards have become obscenely expensive, this offers a much more affordable option to those who have Lisas but do not wish to spend the kind of money that original keyboards now command.
 
+![](docs/images/adapter_01.jpg)
+
 This adapter will allow an M0110A all-in-one keyboard or M0110 with accompanying M0120 number pad to function as a Lisa keyboard. The suggested configuration is to use an M0110A for the following reasons:
 
 - this configuration more closely resembles an original Lisa keyboard than the M0110/M0120 combination, and 
