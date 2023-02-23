@@ -19,8 +19,26 @@ This tool was designed to be as cost-effective as possible and, as such, makes u
 - 2 - Right-Angle Tact Switch - CUI, Part No. TS11-674-73-BK-260-RA-D ([Mouser](https://www.mouser.com/ProductDetail/179-TS1167473260RAD))
 - 1 - On-On DPDT Switch, Non-Shorting - C&K, Part No. OS202013MT5QN1 ([Mouser](https://www.mouser.com/ProductDetail/611-OS202013MT5QN1))
 - 1 - DIP Switch, 3 Position - Wurth Elektronik, Part No. 418117270903 ([Mouser](https://www.mouser.com/ProductDetail/710-418117270903))
+- 2 - 12 Pin 2.54mm Femail Header Receptacle - Harwin, Part No. M20-7821242 ([Mouser](https://www.mouser.com/ProductDetail/855-M20-7821242))
 
 A 3D-printed case is currently in development; when finished, STL and project files will be available in the "case" directory.
+
+## "Gumstick" Version
+
+Also located in the gerbers directory is a smaller, slightly cost and function-reduced version of this adapter I call "the gumstick." It's just about 75mm x 22mm (3" x 7/8") and has been boiled down to only thr bare essentials: MCU, ports, region jumpers, and reset switch. The reset switch is an SMD tact switch (which I usually try to avoid - SMD parts, that is - for ease of assembly by anyone who wants to assemble PCBs I make) but everything else is through-hole. The pads on the reset switch are decently large and the switch model in the BOM has an alignment and stress-relief stud on the bottom that slips into a hole on the PCB, so it should make soldering fairly easy if installed first. 
+
+![](docs/images/gumstick_front.jpg)![](docs/images/gumstick_back.jpg)
+
+The BOM for the gumstick version is as follows:
+
+- 1 - Arduino Pro Micro, 5V/16MHz (any brand should work fine)
+- 1 - 1/4" Stereo Phone Connector - Neutrik, Part No. NRJ6HM-1 ([Mouser](https://www.mouser.com/ProductDetail/568-NRJ6HM1))
+- 1 - RJ9 4P4C Modular Telephone Jack - Amphenol, Part No. 66010-004LF ([Mouser](https://www.mouser.com/ProductDetail/649-66010-004LF))
+- 1 - Side Actuating Tact Switch w/Boss, SMD - Omron Electronics, Part No. B3U-3000PM-B ([Mouser](https://www.mouser.com/ProductDetail/653-B3U-3000PM-B))
+- 2 - 12 Pin 2.54mm Female Header Receptacle - Harwin, Part No. M20-7821242 ([Mouser](https://www.mouser.com/ProductDetail/855-M20-7821242))
+- 2 - 2 Position 2.54mm Male Header Pins - Amphenol, Part No. 10129378-902002BLF ([Mouser](https://www.mouser.com/ProductDetail/649-1012937890202BLF))
+
+This version's firmware is identical to the full version, but lacks the physical interfaces (and MCU access) that would otherwise allow for the full version's functionality to be used.
 
 ## Function
 
