@@ -27,7 +27,7 @@ A 3D-printed case is currently in development; when finished, STL and project fi
 
 Also located in the gerbers directory is a smaller, slightly cost and function-reduced version of this adapter I call "the gumstick." It's just about 75mm x 22mm (3" x 7/8") and has been boiled down to only thr bare essentials: MCU, ports, region jumpers, and reset switch. The reset switch is an SMD tact switch (which I usually try to avoid - SMD parts, that is - for ease of assembly by anyone who wants to assemble PCBs I make) but everything else is through-hole. The pads on the reset switch are decently large and the switch model in the BOM has an alignment and stress-relief stud on the bottom that slips into a hole on the PCB, so it should make soldering fairly easy if installed first. 
 
-![](docs/images/gumstick_front.png) ![](docs/images/gumstick_back.png)
+![](docs/images/gumstick_front.png)![](docs/images/gumstick_back.png)
 
 The BOM for the gumstick version is as follows:
 
