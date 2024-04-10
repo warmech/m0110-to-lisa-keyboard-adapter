@@ -72,7 +72,7 @@ Third, once the adapter is connected via USB, you may use either the Arduino IDE
 
 Fourth, press the mode button (the tact switch closest to the RJ9 connector) once to enter the serial input mode. You should see the words "Serial Communications Mode" appear in the terminal.
 
-At this point, you may either directly interact with the Lisa via manual serial input or, as this mode is more inteded for, use the included Python script from RebeccaRGS's LisaKeys project (see tools directory) to write whole files into RAM using the Lisa's service mode. The tools directory also has a brief explanation on how to use the serial input mode for dedicated user input.
+At this point, you may either directly interact with the Lisa via manual serial input or, as this mode is more inteded for, use the included Python script from RebeccaRGB's LisaKeys project (see tools directory) to write whole files into RAM using the Lisa's service mode. The tools directory also has a brief explanation on how to use the serial input mode for dedicated user input.
 
 ### Keyboard Test Mode
 
